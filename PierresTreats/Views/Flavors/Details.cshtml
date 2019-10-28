@@ -1,12 +1,12 @@
 @model PierresTreats.Models.Flavor;
 
 <h2>Flavor Info</h2>
-<hr />
+<br>
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
 
 @if(@Model.Treats.Count == 0)
 {
-  <p>There are not treats with this flavor</p>
+  <p>You have no treats with this flavor</p>
 }
 else
 {
